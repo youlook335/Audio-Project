@@ -10,7 +10,7 @@ const Navbar: React.FC<NavbarProps> = ({ searchQuery, setSearchQuery }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-900 text-white py-4 shadow-md">
+    <nav className="bg-gray-900 text-white py-4 shadow-md fixed top-0 left-0 w-full z-50 h-">
       <div className="container-fluid mx-auto flex items-center justify-between px-4 md:px-8">
 
         {/* Logo */}
