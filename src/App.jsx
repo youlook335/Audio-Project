@@ -1,11 +1,13 @@
 import './App.css'
 import MusicPlayer from './components/MusicPlayer'
+import NaatPlayer from './components/NaatPlayer'
 
 function App() {
 
   return (
     <>
-    <MusicPlayer />
+    <NaatPlayer/>
+    {/* <MusicPlayer /> */}
     </>
   )
 }
